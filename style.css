@@ -718,7 +718,7 @@ footer{
 
     .main1 {
         width: 290px;
-        min-height: 100%;
+        /* min-height: 100%; */
         /* margin: 70px 0px; */
         text-align: unset;
         position: relative;
@@ -871,14 +871,14 @@ footer{
         display: none;
     }
     
-    header+img {
-        width: 120%;
-        height: 70%;
-        position: absolute;
+       header+img {
+        width: 130%;
+        height: 100%;
+        /* position: absolute; */
         /* bottom: 113px; */
-        z-index: 0;
-        right: 15px;
-        }
+        /* z-index: 0; */
+        /* right: 15px; */
+    }
 }
 
 /* tab view */
